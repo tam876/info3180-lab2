@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+    <div class="profile">
+        <div class="proheader">
+            <img class ="photo" src="{{url_for('static', filename='pro.jpg')}}" alt="profile photo">
+                <h1>Tamalee Pottinger</h1>
+                <h2>@Tamii</h2>
+                <h2>Kingston, Jamaica</h2>
+                <h2>{{date_joined}}</h2>
+        </div>
+        <div class="pbody">
+            <p>
+                I am a smart and talented young woman who 
+                loves website design and development. 
+                Contact me if you'd like to work together 
+                on a new project.
+            </p>
+            <ul>
+                <li>
+                    <span class="num">7</span>
+                    <span>Posts</span>
+                </li>
+                <li>
+                    <span class="num">100</span>
+                    <span>Following</span>
+                </li>
+                <li>
+                    <span class="num">250</span>
+                    <span>Followers</span>
+                </li>
+            </ul>
+            <button class="btn">Follow</button>
+        </div>
+    </div>
+ 
+{% endblock %}
