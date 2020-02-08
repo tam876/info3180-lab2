@@ -1,3 +1,80 @@
 body {
     padding-top: 5rem;
+} 
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border: 1px ;
+}
+
+.proheader {
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background:rgb(138, 44, 44);
+}
+
+.proheader h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.proheader h2{
+    font-size: 15px;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 150px;
+    height : auto;
+    margin: 0 auto; 
+}
+
+.pbody {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 50px;
+    padding-top:4px;
+    position: relative;
+    align-items:center;
+    justify-content: center;
+    color: rgba(59, 58, 58);
+} 
+
+
+.pbody ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    margin-left: 11px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.num {
+    font-weight: bold;
+}
+
+.btn {
+    width: 100px;
+    background: lightseagreen;
+    border-radius: 12px;
+    padding: 8px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn:hover, a:hover{
+    opacity: 0.7;
 }
